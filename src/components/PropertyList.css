@@ -1,0 +1,12 @@
+
+
+.property-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px;
+    background-size: covers;
+    min-height: 100vh;
+  }
+  
+  

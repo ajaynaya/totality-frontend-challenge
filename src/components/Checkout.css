@@ -1,0 +1,101 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .checkout-form {
+    width: 100%;
+    max-width: 450px;
+    margin: 60px auto;
+    padding: 30px;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #e2e8f0, #cfd8e3);
+    box-shadow: 10px 10px 20px #a0a8b3, -10px -10px 20px #ffffff;
+    text-align: center;
+  }
+  
+  .checkout-form h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #007bff;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .checkout-form label {
+    display: block;
+    margin-bottom: 1rem;
+    text-align: left;
+    color: #555;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .checkout-form input[type="text"],
+  .checkout-form input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    color: #333;
+    background-color: #f0f2f5;
+    box-shadow: inset 4px 4px 8px #c1c6cd, inset -4px -4px 8px #ffffff;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .checkout-form input[type="text"]:focus,
+  .checkout-form input[type="email"]:focus {
+    box-shadow: inset 4px 4px 8px #b1b6bd, inset -4px -4px 8px #ffffff;
+    outline: none;
+  }
+  
+  .checkout-form button[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .checkout-form button[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 123, 255, 0.2);
+  }
+  
+  .checkout-form a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .checkout-form a:hover {
+    color: #0056b3;
+  }
+  
+  @media (max-width: 480px) {
+    .checkout-form {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    .checkout-form h2 {
+      font-size: 1.8rem;
+    }
+  
+    .checkout-form button[type="submit"] {
+      font-size: 1.1rem;
+    }
+  }
+  
